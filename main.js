@@ -1,4 +1,4 @@
-
+function Throw(){
 var ran1 = Math.random();
 ran1 = Math.floor(ran1 * 6) + 1;
 
@@ -21,3 +21,4 @@ else
 document.getElementById("res").textContent = "Draw!";
 
 console.log(ran1);
+}
