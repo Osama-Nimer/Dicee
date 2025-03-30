@@ -18,7 +18,5 @@ if(ran1 > ran2)
 else if(ran2 > ran1)
     document.getElementById("res").textContent = "Player 2 Wins! 🎉";
 else
-document.getElementById("res").textContent = " Draw!";
-
-console.log(ran1);
+    document.getElementById("res").textContent = " Draw!";
 }
