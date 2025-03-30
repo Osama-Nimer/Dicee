@@ -14,11 +14,11 @@ document.querySelectorAll("img")[0].setAttribute("src" , img1);
 document.querySelectorAll("img")[1].setAttribute("src" , img2);
 
 if(ran1 > ran2)
-    document.getElementById("res").textContent = "Player 1 Wins!";
+    document.getElementById("res").textContent = "🎉 Player 1 Wins!";
 else if(ran2 > ran1)
-    document.getElementById("res").textContent = "Player 2 Wins!";
+    document.getElementById("res").textContent = "Player 2 Wins! 🎉";
 else
-document.getElementById("res").textContent = "Draw!";
+document.getElementById("res").textContent = " Draw!";
 
 console.log(ran1);
 }

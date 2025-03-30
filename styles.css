@@ -33,7 +33,7 @@ img {
 }
 
 footer {
-  margin-top: 5%;
+  margin-top: 3%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
@@ -42,8 +42,9 @@ footer {
 
 #btn{
   border: solid 1px #232931;
-  border-radius: 20%;
+  border-radius: 10%;
   width: 150px;
   height: 80px;
   background-color: #4ECCA3;
+  font-size: 50px;
 }
